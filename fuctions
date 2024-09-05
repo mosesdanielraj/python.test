@@ -1,0 +1,14 @@
+def calculator():
+    a=int(input("Enter num:"))
+    b=int(input("Enter num"))
+    operation=input("add/sub/mul/div:")
+    if(operation=="add"):
+        print(a+b)
+    elif(operation=="sub"):
+        print(a-b)
+    elif(operation=="mul"):
+        print(a*b)
+    elif(operation=="div"):
+        print(a%b)
+    else:
+        print("invalid")
